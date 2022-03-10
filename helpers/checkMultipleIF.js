@@ -18,8 +18,6 @@ export function checkMultipleIF(i, q) {
   }
 }
 export function checkMainWinner(q) {
-  // console.log(checkText(2, 0), checkText(5, 0), checkText(8, 0))
-  // console.log(document.getElementById('2-0'));
   if (
     (checkText(1, 0) == q && checkText(2, 0) == q && checkText(3, 0) == q) ||
     (checkText(4, 0) == q && checkText(5, 0) == q && checkText(6, 0) == q) ||
