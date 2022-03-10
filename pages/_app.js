@@ -49,6 +49,7 @@ function MyApp({ Component, pageProps }) {
         <meta property='og:image' content='https://ajdaniel.gq/logo1.png' />
       </Head>
       <Script
+        id='my-script'
         dangerouslySetInnerHTML={{
           __html: `
                 document.documentElement.setAttribute('data-theme','mytheme');
